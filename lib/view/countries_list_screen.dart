@@ -1,10 +1,8 @@
 import 'package:ezcountries/controller/countries_list_screen_controller.dart';
-import 'package:ezcountries/data_provider.dart';
 import 'package:ezcountries/models/countriesModel.dart';
 import 'package:ezcountries/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:graphql_flutter/graphql_flutter.dart';
 import 'package:ezcountries/getxIds.dart' as ids;
 
 import 'country_detail_screen.dart';

@@ -1,17 +1,3 @@
-import 'package:flutter/cupertino.dart';
-import 'package:graphql_flutter/graphql_flutter.dart';
-
-final HttpLink httpLink = HttpLink(
-  'https://countries.trevorblades.com/graphql',
-);
-
-ValueNotifier<GraphQLClient> client = ValueNotifier(
-  GraphQLClient(
-    link: httpLink,
-    cache: GraphQLCache(),
-  ),
-);
-
 String fetchCountriesData = '''query Query{
                                 countries {
                                   code
